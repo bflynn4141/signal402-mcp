@@ -1,0 +1,47 @@
+{
+  "name": "signal402-mcp",
+  "version": "0.4.0",
+  "description": "MCP server for x402 ecosystem intelligence. Discover, evaluate, and call any x402 API service with automatic payment.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "signal402": "dist/cli.js",
+    "signal402-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@noble/secp256k1": "^2.1.0",
+    "@x402/core": "^2.3.1",
+    "@x402/evm": "^2.3.1",
+    "@x402/fetch": "^2.3.0",
+    "commander": "^13.1.0",
+    "open": "^10.1.0",
+    "viem": "^2.44.4",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bflynn4141/signal402-mcp.git"
+  },
+  "homepage": "https://signal402.com",
+  "bugs": {
+    "url": "https://github.com/bflynn4141/signal402-mcp/issues"
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "meta": {
+    "timestamp": "2026-02-16T03:54:20.966Z",
+    "wallet_address": "0x8744baf00f5ad7ffccc56c25fa5aa9270e2caffd",
+    "sdk_version": "0.4.0",
+    "total_cost_usd": 0.42,
+    "duration_ms": 68804
+  },
+  "catalog": {
+    "total": 166,
+    "categories": {
+      "ai": 62,
+      "data": 51,
+      "media": 10,
+      "tools": 30,
+      "infrastructure": 13
+    }
+  },
+  "recommend": {
+    "total": 18,
+    "matched": 13,
+    "with_endpoints": 8,
+    "queries": [
+      {
+        "query": "web scraping",
+        "category": "tools",
+        "results": [
+          {
+            "name": "Firecrawl",
+            "url": "https://firecrawl.dev",
+            "source": "editorial",
+            "score": 38,
+            "price": 0.01
+          },
+          {
+            "name": "Pinata",
+            "url": "https://pinata.cloud",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.002
+          },
+          {
+            "name": "Zyte API",
+            "url": "https://zyte.com",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.03
+          },
+          {
+            "name": "402104 (Arweave)",
+            "url": "https://402104.xyz",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.003
+          }
+        ],
+        "expected_match": "Firecrawl",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 961,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "IPFS pinning and storage",
+        "category": "tools",
+        "results": [
+          {
+            "name": "Pinata",
+            "url": "https://pinata.cloud",
+            "source": "editorial",
+            "score": 43,
+            "price": 0.002
+          },
+          {
+            "name": "402104 (Arweave)",
+            "url": "https://402104.xyz",
+            "source": "editorial",
+            "score": 25,
+            "price": 0.003
+          },
+          {
+            "name": "Firecrawl",
+            "url": "https://firecrawl.dev",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.01
+          },
+          {
+            "name": "Neynar",
+            "url": "https://neynar.com",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.001
+          },
+          {
+            "name": "Minifetch",
+            "url": "https://minifetch.dev",
+            "source": "editorial",
+            "score": 17,
+            "price": 0.005
+          }
+        ],
+        "expected_match": "Pinata",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 1123,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "text generation LLM",
+        "category": "ai",
+        "results": [
+          {
+            "name": "ClawdVine",
+            "url": "https://clawdvine.com",
+            "source": "editorial",
+            "score": 29,
+            "price": 0.01
+          },
+          {
+            "name": "Imference",
+            "url": "https://imference.ai",
+            "source": "editorial",
+            "score": 23,
+            "price": 0.006
+          },
+          {
+            "name": "x402engine",
+            "url": "https://x402engine.com",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.002
+          },
+          {
+            "name": "Daydreams Inference",
+            "url": "https://daydreams.ai/inference",
+            "source": "editorial",
+            "score": 17,
+            "price": 0.008
+          },
+          {
+            "name": "Genbase",
+            "url": "https://genbase.ai",
+            "source": "editorial",
+            "score": 15,
+            "price": 0.003
+          }
+        ],
+        "expected_match": "x402engine",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 918,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "image generation",
+        "category": "ai",
+        "results": [
+          {
+            "name": "Imference",
+            "url": "https://imference.ai",
+            "source": "editorial",
+            "score": 34,
+            "price": 0.006
+          },
+          {
+            "name": "x402engine",
+            "url": "https://x402engine.com",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.002
+          },
+          {
+            "name": "Genbase",
+            "url": "https://genbase.ai",
+            "source": "editorial",
+            "score": 15,
+            "price": 0.003
+          },
+          {
+            "name": "Tools Agent X402 Production Up",
+            "url": "https://tools-agent-x402-production.up.railway.app/generate-meme",
+            "bazaar_resource_url": "https://tools-agent-x402-production.up.railway.app/generate-meme",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://tools-agent-x402-production.up.railway.app/generate-meme",
+                "method": "GET",
+                "description": "Professional image generation powered by Gemini 3 Pro Image Preview (Nano Banana Pro). Generate memes, logos, posters, photorealistic visuals from text prompts. Best results with 100+ character prompts. Supports image editing via URL input.",
+                "price_usd": 0.25,
+                "queryParams": {
+                  "prompt": "A cute otter wearing sunglasses"
+                }
+              },
+              {
+                "url": "https://tools-agent-x402-production.up.railway.app/tx-explainer",
+                "method": "GET",
+                "description": "Decode and explain any EVM blockchain transaction across 11 chains (Base, Ethereum, Arbitrum, Optimism, Avalanche, Polygon, Mantle, Monad, Plasma, BSC, Hyperliquid). Get a human-readable summary of swaps, transfers, approvals, DeFi interactions, and more.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "chain": "base",
+                  "outputLevel": "summary",
+                  "txHash": "0x1234..."
+                }
+              }
+            ],
+            "score": 15,
+            "price": 0.01
+          },
+          {
+            "name": "X Router",
+            "url": "https://api.x-router.ai/v1/images/generate",
+            "bazaar_resource_url": "https://api.x-router.ai/v1/images/generate",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://api.x-router.ai/v1/images/generate",
+                "method": "POST",
+                "description": "Text-to-Image Generation",
+                "price_usd": 0.005694,
+                "bodyType": "json",
+                "bodyFields": {
+                  "guidance": {
+                    "description": "Guidance scale for generation (1-30)",
+                    "type": "number"
+                  },
+                  "height": {
+                    "description": "Image height in pixels, must be divisible by 64 (128-2048, default: 1024)",
+                    "type": "number"
+                  },
+                  "model": {
+                    "description": "Image model to use",
+                    "type": "string"
+                  },
+                  "negativePrompt": {
+                    "description": "Negative prompt to avoid certain elements (max 3000 chars)",
+                    "type": "string"
+                  },
+                  "numberResults": {
+                    "description": "Number of images to generate (1-4, default: 1)",
+                    "type": "number"
+                  },
+                  "prompt": {
+                    "description": "Text description of the image to generate (2-3000 chars)",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "seed": {
+                    "description": "Random seed for reproducibility",
+                    "type": "number"
+                  },
+                  "steps": {
+                    "description": "Number of inference steps (1-50)",
+                    "type": "number"
+                  },
+                  "width": {
+                    "description": "Image width in pixels, must be divisible by 64 (128-2048, default: 1024)",
+                    "type": "number"
+                  }
+                }
+              }
+            ],
+            "score": 15,
+            "price": 0.005694
+          }
+        ],
+        "expected_match": "Imference",
+        "matched": true,
+        "has_endpoint": true,
+        "latency_ms": 802,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "crypto news and market data",
+        "category": "data",
+        "results": [
+          {
+            "name": "Gloria AI",
+            "url": "https://gloria.ai",
+            "source": "editorial",
+            "score": 27,
+            "price": 0.003
+          },
+          {
+            "name": "AsterPay",
+            "url": "https://asterpay.io",
+            "source": "editorial",
+            "score": 23,
+            "price": 0.002
+          },
+          {
+            "name": "Chainbase",
+            "url": "https://chainbase.com",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.001
+          },
+          {
+            "name": "X402 Cybercentry Quantum Cryptography Verification Up",
+            "url": "https://x402-cybercentry-quantum-cryptography-verification.up.railway.app/verify",
+            "bazaar_resource_url": "https://x402-cybercentry-quantum-cryptography-verification.up.railway.app/verify",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402-cybercentry-quantum-cryptography-verification.up.railway.app/verify",
+                "method": "GET",
+                "description": "Verify and encrypt data using the Cybercentry Quantum Cryptography Verification (CQCV) API with x402 payment protocol. Returns encrypted data with record ID and decryption URL",
+                "price_usd": 0.02,
+                "queryParams": {
+                  "data": {
+                    "description": "Any text data to encrypt and verify",
+                    "required": true,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 22,
+            "price": 0.02
+          },
+          {
+            "name": "BlackSwan",
+            "url": "https://blackswan.ai",
+            "source": "editorial",
+            "score": 21,
+            "price": 0.005
+          }
+        ],
+        "expected_match": "Gloria",
+        "matched": true,
+        "has_endpoint": true,
+        "latency_ms": 911,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "token prices on-chain",
+        "category": "data",
+        "results": [
+          {
+            "name": "Venice.ai",
+            "url": "https://venice.ai",
+            "source": "editorial",
+            "score": 29,
+            "price": 0.005
+          },
+          {
+            "name": "ClawdVine",
+            "url": "https://clawdvine.com",
+            "source": "editorial",
+            "score": 27,
+            "price": 0.01
+          },
+          {
+            "name": "Chainbase",
+            "url": "https://chainbase.com",
+            "source": "editorial",
+            "score": 25,
+            "price": 0.001
+          },
+          {
+            "name": "AsterPay",
+            "url": "https://asterpay.io",
+            "source": "editorial",
+            "score": 24,
+            "price": 0.002
+          },
+          {
+            "name": "X402 Cybercentry Ethereum Token Verification Up",
+            "url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+            "bazaar_resource_url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+                "method": "GET",
+                "description": "Verify Ethereum and EVM-compatible contract addresses using the Cybercentry Ethereum Token Verification (CETV) API. Returns a verification_report with detailed security analysis",
+                "price_usd": 0.02,
+                "queryParams": {
+                  "chain_id": {
+                    "description": "Chain ID (e.g., 1 for Mainnet, 2 for Testnet)",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "contract_address": {
+                    "description": "Contract address to verify",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "platform_id": {
+                    "description": "Platform ID (1=Etherscan, 2=BSCScan, 3=Polygonscan, 17=Basescan etc.)",
+                    "required": true,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 21,
+            "price": 0.02
+          }
+        ],
+        "expected_match": "AsterPay",
+        "matched": false,
+        "has_endpoint": true,
+        "latency_ms": 917,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "smart contract security audit",
+        "category": "data",
+        "results": [
+          {
+            "name": "Cybercentry",
+            "url": "https://cybercentry.ai",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.005
+          },
+          {
+            "name": "X402 Cybercentry Cyber Security Consultant Up",
+            "url": "https://x402-cybercentry-cyber-security-consultant.up.railway.app/query",
+            "bazaar_resource_url": "https://x402-cybercentry-cyber-security-consultant.up.railway.app/query",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402-cybercentry-cyber-security-consultant.up.railway.app/query",
+                "method": "GET",
+                "description": "Ask data protection, information security or cyber security questions using the Cybercentry Cyber Security Consultant (CCSC) API. Returns expert security guidance and recommendations",
+                "price_usd": 0.02,
+                "queryParams": {
+                  "query": {
+                    "description": "Your data protection, information security or cyber security question",
+                    "required": true,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 16,
+            "price": 0.02
+          },
+          {
+            "name": "X402 Cybercentry Ethereum Token Verification Up",
+            "url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+            "bazaar_resource_url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+                "method": "GET",
+                "description": "Verify Ethereum and EVM-compatible contract addresses using the Cybercentry Ethereum Token Verification (CETV) API. Returns a verification_report with detailed security analysis",
+                "price_usd": 0.02,
+                "queryParams": {
+                  "chain_id": {
+                    "description": "Chain ID (e.g., 1 for Mainnet, 2 for Testnet)",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "contract_address": {
+                    "description": "Contract address to verify",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "platform_id": {
+                    "description": "Platform ID (1=Etherscan, 2=BSCScan, 3=Polygonscan, 17=Basescan etc.)",
+                    "required": true,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 15,
+            "price": 0.02
+          },
+          {
+            "name": "Pro Api Coingecko",
+            "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/solana/token_price/4BmaxxckzuAnFZANYP8uZ4MQUBLoKBHxbx1xbZSDbank",
+            "bazaar_resource_url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/solana/token_price/4BmaxxckzuAnFZANYP8uZ4MQUBLoKBHxbx1xbZSDbank",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/solana/token_price/4BmaxxckzuAnFZANYP8uZ4MQUBLoKBHxbx1xbZSDbank",
+                "method": "GET",
+                "description": "Query onchain DEX token price & market data based on the provided token contract addresses on a network.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include_24hr_price_change": true,
+                  "include_24hr_vol": true,
+                  "include_inactive_source": true,
+                  "include_market_cap": true,
+                  "include_total_reserve_in_usd": true,
+                  "mcap_fdv_fallback": true
+                }
+              },
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/search/pools",
+                "method": "GET",
+                "description": "Search onchain DEX pools and token, by contract address, name, or token symbol.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include": "base_token",
+                  "network": "eth",
+                  "page": 1,
+                  "query": "weth"
+                }
+              },
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/eth/token_price/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "method": "GET",
+                "description": "Query onchain DEX token price & market data based on the provided token contract addresses on a network.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include_24hr_price_change": true,
+                  "include_24hr_vol": true,
+                  "include_inactive_source": true,
+                  "include_market_cap": true,
+                  "include_total_reserve_in_usd": true,
+                  "mcap_fdv_fallback": true
+                }
+              },
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/eth/token_price/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "method": "GET",
+                "description": "Query onchain DEX token price & market data based on the provided token contract addresses on a network.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include_24hr_price_change": true,
+                  "include_24hr_vol": true,
+                  "include_inactive_source": true,
+                  "include_market_cap": true,
+                  "include_total_reserve_in_usd": true,
+                  "mcap_fdv_fallback": true
+                }
+              },
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/base/token_price/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+                "method": "GET",
+                "description": "Query onchain DEX token price & market data based on the provided token contract addresses on a network.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include_24hr_price_change": true,
+                  "include_24hr_vol": true,
+                  "include_inactive_source": true,
+                  "include_market_cap": true,
+                  "include_total_reserve_in_usd": true,
+                  "mcap_fdv_fallback": true
+                }
+              },
+              {
+                "url": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/eth/token_price/0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "method": "GET",
+                "description": "Query onchain DEX token price & market data based on the provided token contract addresses on a network.",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "include_24hr_price_change": true,
+                  "include_24hr_vol": true,
+                  "include_inactive_source": true,
+                  "include_market_cap": true,
+                  "include_total_reserve_in_usd": true,
+                  "mcap_fdv_fallback": true
+                }
+              }
+            ],
+            "score": 13,
+            "price": 0.01
+          },
+          {
+            "name": "X402 Onchainexpat",
+            "url": "https://x402.onchainexpat.com/api/x402-crypto/token-metadata",
+            "bazaar_resource_url": "https://x402.onchainexpat.com/api/x402-crypto/token-metadata",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402.onchainexpat.com/api/x402-crypto/token-metadata",
+                "method": "POST",
+                "description": "Get comprehensive token metadata with security analysis (refundable)",
+                "price_usd": 0.02,
+                "bodyType": "json",
+                "bodyFields": {
+                  "address": {
+                    "description": "Token contract address, e.g., '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'",
+                    "required": true,
+                    "type": "string"
+                  },
+                  "chain": {
+                    "description": "Blockchain (default: base). Supported: base, ethereum, arbitrum, polygon, optimism",
+                    "required": false,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 13,
+            "price": 0.02
+          }
+        ],
+        "expected_match": "Cybercentry",
+        "matched": true,
+        "has_endpoint": true,
+        "latency_ms": 965,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "video generation",
+        "category": "media",
+        "results": [
+          {
+            "name": "ClawdVine",
+            "url": "https://clawdvine.com",
+            "source": "editorial",
+            "score": 34,
+            "price": 0.01
+          },
+          {
+            "name": "Numbers Protocol",
+            "url": "https://numbersprotocol.io",
+            "source": "editorial",
+            "score": 17,
+            "price": 0.008
+          },
+          {
+            "name": "Livepeer",
+            "url": "https://livepeer.org",
+            "source": "editorial",
+            "score": 11,
+            "price": 0.02
+          },
+          {
+            "name": "Kodo",
+            "url": "https://kodo.ai",
+            "source": "editorial",
+            "score": 8,
+            "price": 0.015
+          }
+        ],
+        "expected_match": "ClawdVine",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 967,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "twitter API proxy",
+        "category": "infra",
+        "results": [
+          {
+            "name": "Tweazy",
+            "url": "https://tweazy.dev",
+            "source": "editorial",
+            "score": 26,
+            "price": 0.002
+          }
+        ],
+        "expected_match": "Tweazy",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 853,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "speech to text transcription",
+        "category": "infra",
+        "results": [
+          {
+            "name": "dTelecom STT",
+            "url": "https://dtelecom.org",
+            "source": "editorial",
+            "score": 38,
+            "price": 0.01
+          }
+        ],
+        "expected_match": "dTelecom",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 908,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "farcaster social API",
+        "category": "tools",
+        "results": [
+          {
+            "name": "Neynar",
+            "url": "https://neynar.com",
+            "source": "editorial",
+            "score": 33,
+            "price": 0.001
+          }
+        ],
+        "expected_match": "Neynar",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 780,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "social media listening",
+        "category": "data",
+        "results": [
+          {
+            "name": "Numbers Protocol",
+            "url": "https://numbersprotocol.io",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.008
+          },
+          {
+            "name": "Akord",
+            "url": "https://akord.com",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.005
+          },
+          {
+            "name": "Neynar",
+            "url": "https://neynar.com",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.001
+          },
+          {
+            "name": "SLAMai",
+            "url": "https://slamai.io",
+            "source": "editorial",
+            "score": 18,
+            "price": 0.001
+          },
+          {
+            "name": "AsterPay",
+            "url": "https://asterpay.io",
+            "source": "editorial",
+            "score": 17,
+            "price": 0.002
+          }
+        ],
+        "expected_match": "SLAMai",
+        "matched": false,
+        "has_endpoint": false,
+        "latency_ms": 1048,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "wallet reputation sybil",
+        "category": "data",
+        "results": [
+          {
+            "name": "Trusta.AI",
+            "url": "https://trusta.ai",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.003
+          },
+          {
+            "name": "X402 Cybercentry Wallet Verification Up",
+            "url": "https://x402-cybercentry-wallet-verification.up.railway.app/verify",
+            "bazaar_resource_url": "https://x402-cybercentry-wallet-verification.up.railway.app/verify",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402-cybercentry-wallet-verification.up.railway.app/verify",
+                "method": "GET",
+                "description": "Verify wallet addresses for sanctions, fraud, and risk using Cybercentry Wallet Verification (CWV) API",
+                "price_usd": 0.02,
+                "queryParams": {
+                  "data": {
+                    "description": "Wallet address to verify (Bitcoin, Ethereum, etc.)",
+                    "required": true,
+                    "type": "string"
+                  }
+                }
+              }
+            ],
+            "score": 16,
+            "price": 0.02
+          },
+          {
+            "name": "Einstein AI",
+            "url": "https://einstein-ai.io",
+            "source": "editorial",
+            "score": 15,
+            "price": 0.004
+          },
+          {
+            "name": "X402scan",
+            "url": "https://www.x402scan.com/api/data/wallets/0x4Ac4E147A60a3035737fafBa1767D0767e69f2F5/transactions",
+            "bazaar_resource_url": "https://www.x402scan.com/api/data/wallets/0x4Ac4E147A60a3035737fafBa1767D0767e69f2F5/transactions",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x4Ac4E147A60a3035737fafBa1767D0767e69f2F5/transactions",
+                "method": "GET",
+                "description": "Paginated transfers where wallet is sender",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "page": 0,
+                  "page_size": 10,
+                  "sort_by": "time",
+                  "sort_order": "desc"
+                }
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x0F1CCF4eDd29a3bCa68dAb4e24D8d0D01a33cCC2/stats",
+                "method": "GET",
+                "description": "Aggregate stats for a wallet (tx count, total amount, unique recipients)",
+                "price_usd": 0.01
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/facilitators",
+                "method": "GET",
+                "description": "Paginated list of facilitators with stats",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "page": 0,
+                  "page_size": 10
+                }
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x0F12e5192C0ad92106Eda0C7Ee6FA07AC3A4B439/transactions",
+                "method": "GET",
+                "description": "Paginated transfers where wallet is sender",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "page": 0,
+                  "page_size": 10,
+                  "sort_by": "time",
+                  "sort_order": "desc"
+                }
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x0F12e5192C0ad92106Eda0C7Ee6FA07AC3A4B439/stats",
+                "method": "GET",
+                "description": "Aggregate stats for a wallet (tx count, total amount, unique recipients)",
+                "price_usd": 0.01
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x6B173bf632a7Ee9151e94E10585BdecCd47bDAAf/stats",
+                "method": "GET",
+                "description": "Aggregate stats for a wallet (tx count, total amount, unique recipients)",
+                "price_usd": 0.01
+              },
+              {
+                "url": "https://www.x402scan.com/api/data/wallets/0x6B173bf632a7Ee9151e94E10585BdecCd47bDAAf/transactions",
+                "method": "GET",
+                "description": "Paginated transfers where wallet is sender",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "page": 0,
+                  "page_size": 10,
+                  "sort_by": "time",
+                  "sort_order": "desc"
+                }
+              }
+            ],
+            "score": 13,
+            "price": 0.01
+          },
+          {
+            "name": "Slamlink Ai Main 50fbb45 D2 Zuplo",
+            "url": "https://slamlink-ai-main-50fbb45.d2.zuplo.dev/chain/tokens/trending",
+            "bazaar_resource_url": "https://slamlink-ai-main-50fbb45.d2.zuplo.dev/chain/tokens/trending",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://slamlink-ai-main-50fbb45.d2.zuplo.dev/chain/tokens/trending",
+                "method": "GET",
+                "description": "Returns trending tokens across the entire blockchain for a specified activity window and optional category.\nThe size of the increase in active wallets over the activity window determines the token's trending rank.",
+                "price_usd": 0.001,
+                "queryParams": {
+                  "activity_window": {
+                    "description": "The length of time over which activity is measured.",
+                    "enum": [
+                      "5min",
+                      "15min",
+                      "1h",
+                      "3h",
+                      "6h",
+                      "1d"
+                    ],
+                    "type": "string"
+                  },
+                  "blockchain": {
+                    "description": "The blockchain name.",
+                    "enum": [
+                      "ethereum",
+                      "base"
+                    ],
+                    "required": true,
+                    "type": "string"
+                  },
+                  "category": {
+                    "description": "Filters to a specific subset of tokens. Currently only 'virtuals' is supported on Base.",
+                    "type": "string"
+                  },
+                  "estimate_cost": {
+                    "description": "When true, returns only the SLAM token cost estimation.",
+                    "type": "boolean"
+                  },
+                  "num": {
+                    "description": "The maximum number of tokens to return. Maximum: 250.",
+                    "format": "int32",
+                    "type": "integer"
+                  }
+                }
+              }
+            ],
+            "score": 13,
+            "price": 0.001
+          }
+        ],
+        "expected_match": "Trusta",
+        "matched": true,
+        "has_endpoint": true,
+        "latency_ms": 890,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "privacy AI inference",
+        "category": "ai",
+        "results": [
+          {
+            "name": "Venice.ai",
+            "url": "https://venice.ai",
+            "source": "editorial",
+            "score": 43,
+            "price": 0.005
+          },
+          {
+            "name": "AIsa",
+            "url": "https://aisa.bot",
+            "source": "editorial",
+            "score": 27,
+            "price": 0.005
+          },
+          {
+            "name": "BlockRun.AI",
+            "url": "https://blockrun.ai",
+            "source": "editorial",
+            "score": 26,
+            "price": 0.003
+          },
+          {
+            "name": "AiMo",
+            "url": "https://aimo.ai",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.004
+          },
+          {
+            "name": "Daydreams Inference",
+            "url": "https://daydreams.ai/inference",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.008
+          }
+        ],
+        "expected_match": "Venice",
+        "matched": true,
+        "has_endpoint": false,
+        "latency_ms": 923,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "permanent decentralized storage",
+        "category": "tools",
+        "results": [
+          {
+            "name": "Akord",
+            "url": "https://akord.com",
+            "source": "editorial",
+            "score": 42,
+            "price": 0.005
+          },
+          {
+            "name": "402104 (Arweave)",
+            "url": "https://402104.xyz",
+            "source": "editorial",
+            "score": 35,
+            "price": 0.003
+          },
+          {
+            "name": "X402 O8 Is",
+            "url": "https://x402.o8.is/prepare",
+            "bazaar_resource_url": "https://x402.o8.is/prepare",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402.o8.is/prepare",
+                "method": "POST",
+                "description": "Decentralized file hosting on Swarm. Pay USDC to upload up to 100MB (1d=$0.04, 7d=$0.25, 14d=$0.50).",
+                "price_usd": 0.04,
+                "queryParams": {
+                  "duration": "1d"
+                }
+              },
+              {
+                "url": "https://x402.o8.is/upload",
+                "method": "POST",
+                "description": "Decentralized file hosting on Swarm. Single step: send USDC payment + files, get back a public URL immediately. The URL is content-addresset, but NOT live until background processing completes (~2-3 min). Poll the returned statusUrl until status is 'complete'. (1d=$0.04, 7d=$0.25, 14d=$0.50). Max 100MB.",
+                "price_usd": 0.04,
+                "queryParams": {
+                  "duration": "1d",
+                  "files": "multipart/form-data binary files"
+                }
+              }
+            ],
+            "score": 13,
+            "price": 0.04
+          }
+        ],
+        "expected_match": "Akord",
+        "matched": true,
+        "has_endpoint": true,
+        "latency_ms": 814,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "contact enrichment and people search",
+        "category": "data",
+        "results": [
+          {
+            "name": "Firecrawl",
+            "url": "https://firecrawl.dev",
+            "source": "editorial",
+            "score": 22,
+            "price": 0.01
+          },
+          {
+            "name": "Pinata",
+            "url": "https://pinata.cloud",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.002
+          },
+          {
+            "name": "Neynar",
+            "url": "https://neynar.com",
+            "source": "editorial",
+            "score": 20,
+            "price": 0.001
+          },
+          {
+            "name": "Search Reversesandbox",
+            "url": "https://search.reversesandbox.com/web/search",
+            "bazaar_resource_url": "https://search.reversesandbox.com/web/search",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://search.reversesandbox.com/web/search",
+                "method": "GET",
+                "description": "Private web search for AI agents — zero logging, no tracking, no human signup required. Pay-per-query with USDC, no API keys or accounts. Multi-engine JSON results. Pass q=query, optional count (1-20), offset.",
+                "price_usd": 0.002,
+                "queryParams": {
+                  "q": "latest AI news"
+                }
+              }
+            ],
+            "score": 19,
+            "price": 0.002
+          },
+          {
+            "name": "Gloria AI",
+            "url": "https://gloria.ai",
+            "source": "editorial",
+            "score": 17,
+            "price": 0.003
+          }
+        ],
+        "expected_match": "EnrichX402",
+        "matched": false,
+        "has_endpoint": true,
+        "latency_ms": 777,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "AI image and video generation",
+        "category": "media",
+        "results": [
+          {
+            "name": "ClawdVine",
+            "url": "https://clawdvine.com",
+            "source": "editorial",
+            "score": 38,
+            "price": 0.01
+          },
+          {
+            "name": "Numbers Protocol",
+            "url": "https://numbersprotocol.io",
+            "source": "editorial",
+            "score": 21,
+            "price": 0.008
+          },
+          {
+            "name": "Akord",
+            "url": "https://akord.com",
+            "source": "editorial",
+            "score": 19,
+            "price": 0.005
+          },
+          {
+            "name": "Livepeer",
+            "url": "https://livepeer.org",
+            "source": "editorial",
+            "score": 14,
+            "price": 0.02
+          },
+          {
+            "name": "X402 Creative Tim",
+            "url": "https://x402.creative-tim.com/api/shadcn-block",
+            "bazaar_resource_url": "https://x402.creative-tim.com/api/shadcn-block",
+            "source": "bazaar",
+            "endpoints": [
+              {
+                "url": "https://x402.creative-tim.com/api/shadcn-block",
+                "method": "GET",
+                "description": "Get ShadCN UI component blocks and templates",
+                "price_usd": 0.01,
+                "queryParams": {
+                  "block_name": "testimonials-02"
+                }
+              },
+              {
+                "url": "https://x402.creative-tim.com/shadcn-blocks/user-payment",
+                "method": "GET",
+                "description": "View component code after payment",
+                "price_usd": 0.01
+              },
+              {
+                "url": "https://x402.creative-tim.com/message/user-payment",
+                "method": "GET",
+                "description": "View message content after payment",
+                "price_usd": 0.1
+              }
+            ],
+            "score": 13,
+            "price": 0.01
+          }
+        ],
+        "expected_match": "StableStudio",
+        "matched": false,
+        "has_endpoint": true,
+        "latency_ms": 772,
+        "cost": 0.02,
+        "error": null
+      },
+      {
+        "query": "x402 ecosystem explorer and analytics",
+        "category": "data",
+        "results": [
+          {
+            "name": "ClawdVine",
+            "url": "https://clawdvine.com",
+            "source": "editorial",
+            "score": 26,
+            "price": 0.01
+          },
+          {
+            "name": "x402engine",
+            "url": "https://x402engine.com",
+            "source": "editorial",
+            "score": 23,
+            "price": 0.002
+          },
+          {
+            "name": "AIsa",
+            "url": "https://aisa.bot",
+            "source": "editorial",
+            "score": 21,
+            "price": 0.005
+          },
+          {
+            "name": "Firecrawl",
+            "url": "https://firecrawl.dev",
+            "source": "editorial",
+            "score": 21,
+            "price": 0.01
+          },
+          {
+            "name": "Pinata",
+            "url": "https://pinata.cloud",
+            "source": "editorial",
+            "score": 21,
+            "price": 0.002
+          }
+        ],
+        "expected_match": "x402scan",
+        "matched": false,
+        "has_endpoint": false,
+        "latency_ms": 849,
+        "cost": 0.02,
+        "error": null
+      }
+    ]
+  },
+  "probe": {
+    "total": 5,
+    "alive": 5,
+    "results": [
+      {
+        "service": "Firecrawl",
+        "url": "https://firecrawl.dev",
+        "alive": true,
+        "response_time_ms": 394,
+        "price_confirmed": null,
+        "error": null
+      },
+      {
+        "service": "Pinata",
+        "url": "https://pinata.cloud",
+        "alive": true,
+        "response_time_ms": 113,
+        "price_confirmed": null,
+        "error": null
+      },
+      {
+        "service": "Neynar",
+        "url": "https://neynar.com",
+        "alive": true,
+        "response_time_ms": 248,
+        "price_confirmed": null,
+        "error": null
+      },
+      {
+        "service": "Tools Agent X402 Production Up",
+        "url": "https://tools-agent-x402-production.up.railway.app/generate-meme",
+        "alive": true,
+        "response_time_ms": 346,
+        "price_confirmed": null,
+        "error": null
+      },
+      {
+        "service": "X Router",
+        "url": "https://api.x-router.ai/v1/images/generate",
+        "alive": true,
+        "response_time_ms": 94,
+        "price_confirmed": null,
+        "error": null
+      }
+    ]
+  },
+  "calls": {
+    "total": 19,
+    "succeeded": 6,
+    "paid": 0,
+    "failed": 13,
+    "results": [
+      {
+        "service": "Tools Agent X402 Production Up",
+        "endpoint": "https://tools-agent-x402-production.up.railway.app/tx-explainer?chain=base&txHash=0x8006e139dac21595530fdb5b8166ecc607c0ec94e797256573eaaa1c2c076e4f",
+        "method": "GET",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"txHash\":\"0x8006e139dac21595530fdb5b8166ecc607c0ec94e797256573eaaa1c2c076e4f\",\"chain\":\"Base\",\"explorerUrl\":\"https://basescan.org/tx/0x8006e139dac21595530fdb5b8166ecc607c0ec94e797256573eaaa1c2c076e4f\"",
+        "error": null,
+        "latency_ms": 8932,
+        "cost_usd": 0
+      },
+      {
+        "service": "X Router",
+        "endpoint": "https://api.x-router.ai/v1/images/generate",
+        "method": "POST",
+        "http_status": 400,
+        "paid": false,
+        "response_preview": "{\"error\":\"Unknown model ID: gpt-3.5-turbo\",\"code\":\"INVALID_MODEL\"}",
+        "error": "HTTP 400",
+        "latency_ms": 283,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Cybercentry Quantum Cryptography Verification Up",
+        "endpoint": "https://x402-cybercentry-quantum-cryptography-verification.up.railway.app/verify?data=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{\"error\":\"Failed to verify payment: insufficient_funds\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"20000\",\"resource\":\"https://x402-cybercentry-quantum-cryptography-verification",
+        "error": "HTTP 402",
+        "latency_ms": 1548,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Cybercentry Ethereum Token Verification Up",
+        "endpoint": "https://x402-cybercentry-ethereum-token-verification.up.railway.app/verify",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{\"error\":\"Failed to verify payment: insufficient_funds\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"20000\",\"resource\":\"https://x402-cybercentry-ethereum-token-verification.up.ra",
+        "error": "HTTP 402",
+        "latency_ms": 1533,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Cybercentry Cyber Security Consultant Up",
+        "endpoint": "https://x402-cybercentry-cyber-security-consultant.up.railway.app/query?query=ethereum",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{\"error\":\"Failed to verify payment: insufficient_funds\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"20000\",\"resource\":\"https://x402-cybercentry-cyber-security-consultant.up.rail",
+        "error": "HTTP 402",
+        "latency_ms": 1270,
+        "cost_usd": 0
+      },
+      {
+        "service": "Pro Api Coingecko",
+        "endpoint": "https://pro-api.coingecko.com/api/v3/x402/onchain/simple/networks/solana/token_price/4BmaxxckzuAnFZANYP8uZ4MQUBLoKBHxbx1xbZSDbank",
+        "method": "GET",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"data\":{\"id\":\"b4821ddf-1f85-474a-858c-c33100d84eb3\",\"type\":\"simple_token_price\",\"attributes\":{\"token_prices\":{\"4BmaxxckzuAnFZANYP8uZ4MQUBLoKBHxbx1xbZSDbank\":\"0.000054224610266015198817679072165497225",
+        "error": null,
+        "latency_ms": 2138,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Onchainexpat",
+        "endpoint": "https://x402.onchainexpat.com/api/x402-crypto/token-metadata",
+        "method": "POST",
+        "http_status": 500,
+        "paid": false,
+        "response_preview": "Internal Server Error",
+        "error": "HTTP 500",
+        "latency_ms": 1899,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Cybercentry Wallet Verification Up",
+        "endpoint": "https://x402-cybercentry-wallet-verification.up.railway.app/verify?data=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{\"error\":\"Failed to verify payment: insufficient_funds\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"20000\",\"resource\":\"https://x402-cybercentry-wallet-verification.up.railway.ap",
+        "error": "HTTP 402",
+        "latency_ms": 1303,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402scan",
+        "endpoint": "https://www.x402scan.com/api/data/wallets/0x4Ac4E147A60a3035737fafBa1767D0767e69f2F5/transactions?page=1",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{}",
+        "error": "HTTP 402",
+        "latency_ms": 1894,
+        "cost_usd": 0
+      },
+      {
+        "service": "Slamlink Ai Main 50fbb45 D2 Zuplo",
+        "endpoint": "https://slamlink-ai-main-50fbb45.d2.zuplo.dev/chain/tokens/trending",
+        "method": "GET",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"slam\":0.098972653360069926,\"chain\":\"base\",\"block\":42212339,\"utc\":\"2026-02-16T03:53:45Z\",\"tokens\":[{\"rank\":1,\"name\":\"Klark by Virtuals\",\"symbol\":\"KLARK\",\"address\":\"0xf1c5563490567f8e8bb706b80428cc718",
+        "error": null,
+        "latency_ms": 9319,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 O8 Is",
+        "endpoint": "https://x402.o8.is/prepare",
+        "method": "POST",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{\"error\":\"Payment verification failed: insufficient_funds: insufficient balance: 6526 < 40000\",\"code\":\"PAYMENT_VERIFICATION_FAILED\"}",
+        "error": "HTTP 402",
+        "latency_ms": 1606,
+        "cost_usd": 0
+      },
+      {
+        "service": "Search Reversesandbox",
+        "endpoint": "https://search.reversesandbox.com/web/search?q=ethereum",
+        "method": "GET",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"query\":{\"original\":\"ethereum\"},\"type\":\"search\",\"web\":{\"type\":\"search\",\"results\":[{\"title\":\"Ethereum price today, ETH to USD live price, marketcap and chart | CoinMarketCap\",\"url\":\"https://coinmarket",
+        "error": null,
+        "latency_ms": 2535,
+        "cost_usd": 0
+      },
+      {
+        "service": "X402 Creative Tim",
+        "endpoint": "https://x402.creative-tim.com/api/shadcn-block",
+        "method": "GET",
+        "http_status": 402,
+        "paid": false,
+        "response_preview": "{}",
+        "error": "HTTP 402",
+        "latency_ms": 2193,
+        "cost_usd": 0
+      },
+      {
+        "service": "Firecrawl",
+        "endpoint": "https://api.firecrawl.dev/v1/scrape",
+        "method": "POST",
+        "http_status": 401,
+        "paid": false,
+        "response_preview": "{\"success\":false,\"error\":\"Unauthorized\"}",
+        "error": "HTTP 401",
+        "latency_ms": 275,
+        "cost_usd": 0
+      },
+      {
+        "service": "Pinata",
+        "endpoint": "https://api.pinata.cloud/pinning/pinJSONToIPFS",
+        "method": "POST",
+        "http_status": 401,
+        "paid": false,
+        "response_preview": "{\"error\":{\"reason\":\"KEYS_MUST_BE_STRINGS\",\"details\":\"pinata_api_key and pinata_secret_api_key must both be strings\"}}",
+        "error": "HTTP 401",
+        "latency_ms": 319,
+        "cost_usd": 0
+      },
+      {
+        "service": "Neynar",
+        "endpoint": "https://api.neynar.com/v2/farcaster/cast?type=url&identifier=https://warpcast.com/horsefacts.eth/0x6b8e99f5",
+        "method": "GET",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"cast\":{\"object\":\"cast\",\"hash\":\"0x6b8e99f53ce309ef67842837807c77cb6984f341\",\"author\":{\"object\":\"user\",\"fid\":3621,\"username\":\"horsefacts.eth\",\"display_name\":\"horsefacts\",\"pfp_url\":\"https://imagedelive",
+        "error": null,
+        "latency_ms": 1812,
+        "cost_usd": 0
+      },
+      {
+        "service": "Gloria AI",
+        "endpoint": "https://api.gloriaai.com/query",
+        "method": "POST",
+        "http_status": 0,
+        "paid": false,
+        "response_preview": "",
+        "error": "fetch failed",
+        "latency_ms": 84,
+        "cost_usd": 0
+      },
+      {
+        "service": "Tweazy",
+        "endpoint": "https://api.tweazy.com/search?q=x402",
+        "method": "GET",
+        "http_status": 0,
+        "paid": false,
+        "response_preview": "",
+        "error": "fetch failed",
+        "latency_ms": 2,
+        "cost_usd": 0
+      },
+      {
+        "service": "BlockRun.AI",
+        "endpoint": "https://blockrun.ai/api/v1/chat/completions",
+        "method": "POST",
+        "http_status": 200,
+        "paid": false,
+        "response_preview": "{\"id\":\"chatcmpl-D9jybihJEigJRgB0pnn34BxBNHJ1F\",\"object\":\"chat.completion\",\"created\":1771214057,\"model\":\"openai/gpt-5-nano (via Azure)\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"}",
+        "error": null,
+        "latency_ms": 5009,
+        "cost_usd": 0
+      }
+    ]
+  },
+  "edge_cases": {
+    "spending_guard": {
+      "passed": true,
+      "error_message": "Failed to create payment payload: Payment creation aborted: Service costs $0.0100 per request, exceeds max_cost of $0.0001. Increase max_cost or choose a cheaper service."
+    },
+    "non_x402_passthrough": {
+      "passed": true,
+      "error_message": "Passthrough OK",
+      "status": 200
+    },
+    "bad_url": {
+      "passed": true,
+      "error_message": "fetch failed"
+    }
+  },
+  "findings": [
+    "MISRANKED: 5 queries returned unexpected top result: \"token prices on-chain\" → Venice.ai (expected AsterPay); \"social media listening\" → Numbers Protocol (expected SLAMai); \"contact enrichment and people search\" → Firecrawl (expected EnrichX402); \"AI image and video generation\" → ClawdVine (expected StableStudio); \"x402 ecosystem explorer and analytics\" → ClawdVine (expected x402scan)",
+    "NO-X402-PAYWALL: Firecrawl, Pinata returned 401/401, not 402. These endpoints require API keys, not x402 payments."
+  ],
+  "summary": {
+    "recommend_accuracy": "13/18 (72%)",
+    "endpoint_coverage": "8/18 (44%)",
+    "call_success_rate": "6/19 (32%)",
+    "total_cost": "$0.42",
+    "verdict": "PASS"
+  }
+}
