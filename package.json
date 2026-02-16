@@ -1,6 +1,6 @@
 {
   "name": "signal402-mcp",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "MCP server for x402 ecosystem intelligence. Discover, evaluate, and call any x402 API service with automatic payment.",
   "type": "module",
   "main": "dist/index.js",
